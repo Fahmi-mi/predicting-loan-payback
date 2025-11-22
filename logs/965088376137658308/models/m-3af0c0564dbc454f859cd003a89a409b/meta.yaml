@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/Axioo/Documents/Fahmi/ai-data/ml/predicting-loan-payback/logs/965088376137658308/models/m-3af0c0564dbc454f859cd003a89a409b/artifacts
+creation_timestamp: 1763829786324
+experiment_id: '965088376137658308'
+last_updated_timestamp: 1763829789472
+model_id: m-3af0c0564dbc454f859cd003a89a409b
+model_type: null
+name: model
+source_run_id: f52e3d87d1754e2293012b4e04192f78
+status: 2
+status_message: null

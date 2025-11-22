@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Axioo/Documents/Fahmi/ai-data/ml/predicting-loan-payback/logs/965088376137658308/bc06243e539b42e69883f74d2cba3c80/artifacts
+end_time: 1763829548759
+entry_point_name: ''
+experiment_id: '965088376137658308'
+lifecycle_stage: active
+run_id: bc06243e539b42e69883f74d2cba3c80
+run_name: persistent-finch-196
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763829521937
+status: 3
+tags: []
+user_id: Axioo

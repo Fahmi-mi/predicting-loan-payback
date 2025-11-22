@@ -1,0 +1,6 @@
+destination_id: m-cd40ec50f1374cd7a1511d50075ea5ba
+destination_type: MODEL_OUTPUT
+source_id: m-cd40ec50f1374cd7a1511d50075ea5ba
+source_type: RUN_OUTPUT
+step: 0
+tags: {}

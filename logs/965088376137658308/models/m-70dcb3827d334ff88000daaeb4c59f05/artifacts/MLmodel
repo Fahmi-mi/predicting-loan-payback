@@ -1,0 +1,49 @@
+artifact_path: file:///C:/Users/Axioo/Documents/Fahmi/ai-data/ml/predicting-loan-payback/logs/965088376137658308/models/m-70dcb3827d334ff88000daaeb4c59f05/artifacts
+flavors:
+  lightgbm:
+    code: null
+    data: model.lgb
+    lgb_version: 4.6.0
+    model_class: lightgbm.basic.Booster
+  python_function:
+    data: model.lgb
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.lightgbm
+    python_version: 3.13.0
+is_signature_from_type_hint: false
+mlflow_version: 3.4.0
+model_id: m-70dcb3827d334ff88000daaeb4c59f05
+model_size_bytes: 4380547
+model_uuid: m-70dcb3827d334ff88000daaeb4c59f05
+prompts: null
+run_id: e5abbaff466e410f800892fdf29b16e5
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "annual_income", "required": true}, {"type":
+    "double", "name": "debt_to_income_ratio", "required": true}, {"type": "long",
+    "name": "credit_score", "required": true}, {"type": "double", "name": "loan_amount",
+    "required": true}, {"type": "double", "name": "interest_rate", "required": true},
+    {"type": "string", "name": "gender", "required": true}, {"type": "string", "name":
+    "marital_status", "required": true}, {"type": "string", "name": "education_level",
+    "required": true}, {"type": "string", "name": "employment_status", "required":
+    true}, {"type": "string", "name": "loan_purpose", "required": true}, {"type":
+    "string", "name": "grade_subgrade", "required": true}, {"type": "double", "name":
+    "loan_to_income_ratio", "required": true}, {"type": "double", "name": "monthly_debt",
+    "required": true}, {"type": "double", "name": "payment_to_income", "required":
+    true}, {"type": "long", "name": "subgrade_numeric", "required": true}, {"type":
+    "double", "name": "interest_per_grade", "required": true}, {"type": "string",
+    "name": "credit_score_bin", "required": true}, {"type": "long", "name": "credit_score_bin_num",
+    "required": true}, {"type": "double", "name": "expected_score", "required": true},
+    {"type": "double", "name": "score_grade_diff", "required": true}, {"type": "double",
+    "name": "annual_income_log", "required": true}, {"type": "double", "name": "loan_amount_log",
+    "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-11-22 16:37:01.809632'

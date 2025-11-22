@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Axioo/Documents/Fahmi/ai-data/ml/predicting-loan-payback/logs/965088376137658308/57e1cd074cde4a8183387e65dddd6b42/artifacts
+end_time: 1763829055873
+entry_point_name: ''
+experiment_id: '965088376137658308'
+lifecycle_stage: active
+run_id: 57e1cd074cde4a8183387e65dddd6b42
+run_name: lgbm_hyperparameter_tuning_1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763829055693
+status: 4
+tags: []
+user_id: Axioo
